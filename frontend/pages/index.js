@@ -12,12 +12,12 @@ export default function Home() {
 
         {/* Navbar */}
         <header className="flex items-center justify-between px-8 py-5 bg-[#0b0f19] shadow-md border-b border-gray-800">
-          <h1 className="text-xl font-bold text-purple-300">DevOps Shack</h1>
+          <h1 className="text-xl font-bold text-purple-300">Transact Shack</h1>
           <nav className="space-x-6 text-sm">
             <Link href="/" className="hover:text-pink-400">Home</Link>
             <Link href="/interview" className="hover:text-pink-400">Interview Bot</Link>
             <Link href="/explain-code" className="hover:text-pink-400">Code Explainer</Link>
-            <Link href="/devops-assistant" className="hover:text-pink-400">DevOps Assistant</Link>
+            <Link href="/devops-assistant" className="hover:text-pink-400">Transact Assistant</Link>
           </nav>
           <div className="space-x-4">
             <a href="https://www.youtube.com/@devopsshack" target="_blank" rel="noopener noreferrer">
@@ -35,7 +35,7 @@ export default function Home() {
             GenAI Assistant
           </h2>
           <p className="text-gray-300 max-w-2xl text-lg mb-16">
-            An intelligent assistant to help you with <span className="text-pink-400">DevOps</span>, 
+            An intelligent assistant to help you with <span className="text-pink-400">Transact</span>, 
             <span className="text-purple-400"> code explanations</span>, and 
             <span className="text-blue-400"> interview prep</span> — powered by AI.
           </p>
@@ -57,7 +57,7 @@ export default function Home() {
             <Link href="/devops-assistant">
               <div className="rounded-xl border border-orange-500 bg-[#1b1f2d] p-6 hover:scale-105 transition-transform duration-300 text-center cursor-pointer shadow-lg">
                 <h3 className="text-xl font-bold text-orange-400 mb-2">DevOps Assistant</h3>
-                <p className="text-sm text-gray-400">Resolve DevOps issues with AI help.</p>
+                <p className="text-sm text-gray-400">Resolve Transact issues with AI help.</p>
               </div>
             </Link>
           </div>
