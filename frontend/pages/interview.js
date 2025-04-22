@@ -50,7 +50,7 @@ export default function InterviewBot() {
         <form onSubmit={submit} className="mt-8 w-full max-w-2xl">
           <textarea
             className="w-full p-5 rounded-lg text-white bg-gray-900 border border-pink-500 focus:ring-2 focus:ring-pink-600 min-h-[180px] resize-none shadow-md text-sm"
-            placeholder="Ask your DevOps interview question..."
+            placeholder="Ask your Transact interview question..."
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
           />
