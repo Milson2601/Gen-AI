@@ -13,7 +13,7 @@ export default function Navbar() {
         <nav className="flex items-center gap-5 text-white text-sm font-medium">
           <Link href="/interview" className="hover:text-pink-400">Interview Bot</Link>
           <Link href="/explain-code" className="hover:text-purple-400">Explain Code</Link>
-          <Link href="/devops-assistant" className="hover:text-orange-400">DevOps Assistant</Link>
+          <Link href="/devops-assistant" className="hover:text-orange-400">Transact Assistant</Link>
           <Link href="https://www.youtube.com/@devopsshack" target="_blank">
             <Image src="/yt.svg" alt="YouTube" width={20} height={20} />
           </Link>
