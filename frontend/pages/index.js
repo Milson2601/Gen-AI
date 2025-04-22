@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>GenAI Assistant | DevOps Shack</title>
+        <title>GenAI Assistant | Temenos Transact Shack</title>
       </Head>
 
       <div className="flex flex-col min-h-screen bg-gradient-to-r from-purple-900 via-black to-blue-900 text-white font-sans">
