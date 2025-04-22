@@ -45,12 +45,12 @@ export default function DevOpsAssistant() {
       <Navbar />
       <div className="pt-28 min-h-screen flex flex-col items-center justify-start px-4 bg-gradient-to-br from-purple-900 via-black to-blue-900 text-white">
         <h1 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-orange-400 text-transparent bg-clip-text">
-          DevOps Assistant
+          Temenos Transact Assistant
         </h1>
         <form onSubmit={submit} className="mt-8 w-full max-w-2xl">
           <textarea
             className="w-full p-5 rounded-lg text-white bg-gray-900 border border-orange-500 focus:ring-2 focus:ring-orange-600 min-h-[180px] resize-none shadow-md text-sm"
-            placeholder="Describe your DevOps issue or ask for a solution..."
+            placeholder="Describe your Temenos Transact issue or ask for a solution..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
